@@ -2,14 +2,14 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 // import { Provider } from 'react-redux'; // Import Provider
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage'; // Import your homepage component
-import ProductDetails from './ProductDetails';
-import Bag from './Bag'; // Import your Bag component
-import { BagProvider } from './BagContext'; // Import your BagProvider
-import Checkout from './Checkout';
-import ChangeUserInfo from './ChangeUserInfo';
-import ChangePaymentInfo from './ChangePaymentInfo';
-import OrderSuccess from './OrderSuccess';
+import HomePage from './pages/HomePage'; // Import your homepage component
+import ProductDetails from './pages/ProductDetails';
+import Bag from './pages/Bag'; // Import your Bag component
+import { BagProvider } from './components/BagContext'; // Import your BagProvider
+import Checkout from './pages/Checkout';
+import ChangeUserInfo from './pages/ChangeUserInfo';
+import ChangePaymentInfo from './pages/ChangePaymentInfo';
+import OrderSuccess from './pages/OrderSuccess';
 
 function App() {
   return (

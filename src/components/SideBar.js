@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideBar.css'
+import './SideBar.css';
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { useBag } from './BagContext';
+import { useBag } from '../components/BagContext';
 import { Link, useLocation } from 'react-router-dom';
 import './Bag.css';
-import SideBar from './SideBar';
-import BagPage from './BagPage';
+import SideBar from '../components/SideBar';
+import BagPage from '../components/BagPage';
 
 const Bag = () => {
   // Get bag items and related functions from context

@@ -3,9 +3,9 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Checkout.css';
 import Bag from './Bag';
-import OrderSummary from './OrderSummary';
-import { useBag } from './BagContext';
-import UserData from './UserData';
+import OrderSummary from '../components/OrderSummary';
+import { useBag } from '../components/BagContext';
+import UserData from '../UserData';
 
 const Checkout = () => {
   const location = useLocation();

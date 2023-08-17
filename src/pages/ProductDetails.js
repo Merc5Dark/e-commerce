@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useBag } from './BagContext'; // Import useBag from your BagContext
-import products from './data';
-import SideBar from './SideBar';
-import BagSideBar from './BagSideBar';
+import { useBag } from '../components/BagContext'; // Import useBag from your BagContext
+import products from '../data';
+import SideBar from '../components/SideBar';
+import BagSideBar from '../components/BagSideBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import './ProductDetails.css';

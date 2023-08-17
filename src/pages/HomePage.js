@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import products from './data';
-import SearchBar from './SearchBar';
-import SideBar from './SideBar';
-import BagSideBar from './BagSideBar';
+import products from '../data';
+import SearchBar from '../components/SearchBar';
+import SideBar from '../components/SideBar';
+import BagSideBar from '../components/BagSideBar';
 import './HomePage.css';
-import './App.css';
+import '../App.css';
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
